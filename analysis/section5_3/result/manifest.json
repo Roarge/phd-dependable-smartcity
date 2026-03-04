@@ -1,0 +1,55 @@
+{
+  "section": "5.3",
+  "theorem_status": [
+    {
+      "name": "T5.3-1",
+      "status": "proved",
+      "file": "analysis/section5_3/setup/proofs/Section5_3.lean",
+      "line_range": "272-333"
+    },
+    {
+      "name": "T5.3-2",
+      "status": "proved",
+      "file": "analysis/section5_3/setup/proofs/Section5_3.lean",
+      "line_range": "334-359"
+    },
+    {
+      "name": "T5.3-3",
+      "status": "proved",
+      "file": "analysis/section5_3/setup/proofs/Section5_3.lean",
+      "line_range": "360-371"
+    },
+    {
+      "name": "T5.3-4",
+      "status": "proved",
+      "file": "analysis/section5_3/setup/proofs/Section5_3.lean",
+      "line_range": "372-411"
+    },
+    {
+      "name": "T5.3-5",
+      "status": "proved",
+      "file": "analysis/section5_3/setup/proofs/Section5_3.lean",
+      "line_range": "412-471"
+    }
+  ],
+  "assumptions": [
+    "All stage baselines, CP components, and sensitivity terms are non-negative where monotonicity is used.",
+    "Skill utility u(E,MF) and quality term q(IT) are in [0,1].",
+    "lambda_tau is bounded in [0,1] for sigma_tau interval claims.",
+    "Mobilisation functions are monotone in r and saturate at 1.",
+    "Threshold forms M_0 and M_max use non-negative scale and headroom factors."
+  ],
+  "file_paths": {
+    "proof_file": "analysis/section5_3/setup/proofs/Section5_3.lean",
+    "figure_main_pdf": "analysis/section5_3/result/figures/fig_5_3_response_time_drag.pdf",
+    "figure_main_png": "analysis/section5_3/result/figures/fig_5_3_response_time_drag.png",
+    "figure_inset_pdf": "analysis/section5_3/result/figures/fig_5_3_inset_mobilisation.pdf",
+    "figure_inset_png": "analysis/section5_3/result/figures/fig_5_3_inset_mobilisation.png"
+  },
+  "caption_draft": "Figure 5-3 shows how CP-sensitive detection, decision, and execution delays combine into tau, how skill enters through sigma_tau, and how the resulting ratio r governs mobilisation fractions.",
+  "determinism": {
+    "seed": 20260208,
+    "backend": "Agg",
+    "pythonhashseed": "0"
+  }
+}

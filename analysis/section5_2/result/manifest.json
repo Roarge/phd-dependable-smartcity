@@ -1,0 +1,75 @@
+{
+  "section": "5.2",
+  "theorem_status": [
+    {
+      "name": "T5.2-1",
+      "status": "proved",
+      "file": "analysis/section5_2/setup/proofs/Section5_2.lean",
+      "line_range": "140-165"
+    },
+    {
+      "name": "T5.2-2",
+      "status": "proved",
+      "file": "analysis/section5_2/setup/proofs/Section5_2.lean",
+      "line_range": "166-190"
+    },
+    {
+      "name": "T5.2-3",
+      "status": "proved",
+      "file": "analysis/section5_2/setup/proofs/Section5_2.lean",
+      "line_range": "191-324"
+    },
+    {
+      "name": "T5.2-4",
+      "status": "proved",
+      "file": "analysis/section5_2/setup/proofs/Section5_2.lean",
+      "line_range": "325-341"
+    }
+  ],
+  "assumptions": [
+    "All organisational parameters and disturbance timescales are non-negative",
+    "Gap condition M_0 < M_max is used for strict piecewise boundary claims",
+    "Fast-regime sufficient conditions are encoded through scarce-branch factor decomposition",
+    "Slow-regime reduction assumes mobilisation saturation f_A = f_B = 1",
+    "Constructive parity case uses explicit constants in the Lean proof file"
+  ],
+  "parameter_values": {
+    "k": 1.0,
+    "alpha_A": 1,
+    "beta_B": 1,
+    "beta_H": 1,
+    "epsilon_A": 1,
+    "epsilon_B": 1,
+    "org_S": {
+      "A": 2.0,
+      "B": 6.0,
+      "H": 0.9,
+      "tau_eff": 1.0
+    },
+    "org_L": {
+      "A": 4.0,
+      "B": 8.0,
+      "H": 1.0,
+      "tau_eff": 5.0
+    }
+  },
+  "summary_statistics": {
+    "tau_d_star_estimates": [
+      2.475030303
+    ],
+    "positive_advantage_area": 9.8828,
+    "max_advantage": {
+      "value": 1.0,
+      "tau_d": 0.06,
+      "M": 0.1
+    },
+    "tau_star_reference_M": 2.2
+  },
+  "file_paths": {
+    "figure_pdf": "analysis/section5_2/result/figures/fig_5_2_resilience_advantage_heatmap.pdf",
+    "figure_png": "analysis/section5_2/result/figures/fig_5_2_resilience_advantage_heatmap.png",
+    "table_csv": "analysis/section5_2/result/tables/tab_5_2_parameter_set.csv",
+    "proof_file": "analysis/section5_2/setup/proofs/Section5_2.lean"
+  },
+  "caption_draft": "Figure 5-2 maps Delta R over disturbance timescale and magnitude. The zero contour marks the parity boundary, showing a fast-regime VSE advantage that reverses as mobilisation saturates and larger survivable variety dominates."
+}
