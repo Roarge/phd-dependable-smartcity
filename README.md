@@ -6,7 +6,7 @@
 
 ## Abstract
 
-This thesis investigates how Very Small Entities (VSEs), organisations with fewer than 25 employees, can deliver dependable smart city infrastructure despite severe constraints in capacity, tooling, and expertise. VSEs constitute over 92% of European enterprises and dominate the infrastructure supply chain, yet they are structurally mismatched with the security, reliability, and integration demands of modern cyber-physical systems.
+The thesis investigates how Very Small Entities (VSEs), organisations with fewer than 25 employees, can deliver dependable smart city infrastructure despite severe constraints in capacity, tooling, and expertise. VSEs constitute over 92% of European enterprises and dominate the infrastructure supply chain, yet they are structurally mismatched with the security, reliability, and integration demands of modern cyber-physical systems.
 
 The thesis develops a formal model of complexity and resilience, defining complexity as feasible distinct optionality and resilience as mobilisable variety under time pressure. An extended Purposeful Human Activity Systems (PHAS) model integrates the Free-Energy Principle from computational biology, introducing two constructs: *Regimes of Attention*, which channel collective focus towards critical signals, and *Patterned Practices*, which sustain engagement through regular, structured interaction. Fourteen testable hypotheses and a leverage points framework for intervention design are derived from the formal analysis.
 
