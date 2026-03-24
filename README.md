@@ -1,6 +1,8 @@
-# Dependable Smart City Infrastructure Built by Very Small Entities
+# Building Smarter Environments for Small Teams
 
-**Doctoral thesis** | Roar Elias Georgsen | University of South-Eastern Norway (USN) | 2020–2026
+## A Model-Based Approach to Dependable Smart City Infrastructure in Very Small Entities
+
+Doctoral thesis | Roar Elias Georgsen | University of South-Eastern Norway (USN) | 2026
 
 ---
 
@@ -18,8 +20,10 @@ Four industrial case studies conducted over six years with a Norwegian VSE evalu
 
 ## Repository Contents
 
-This repository contains the reproducible analysis and simulation artefacts
-for the thesis. Thesis text, literature, and export files are not included.
+The full dissertation is available as
+[Georgsen dissertation 060326.pdf](Georgsen%20dissertation%20060326.pdf).
+This repository also contains the reproducible analysis and simulation
+artefacts.
 
 ### Analysis (`analysis/`)
 
