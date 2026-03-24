@@ -108,6 +108,10 @@ Norwegian VSE (Aiwell AS):
 
 [Aiwell AS](https://aiwell.no) — Norwegian VSE operating smart building infrastructure.
 
+## Licence
+
+MIT. See [LICENSE](LICENSE).
+
 ---
 
 *Submitted in partial fulfilment of the requirements for the degree of Philosophiae Doctor (PhD) at the University of South-Eastern Norway.*
