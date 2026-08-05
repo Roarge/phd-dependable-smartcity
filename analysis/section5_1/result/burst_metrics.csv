@@ -1,0 +1,4 @@
+event_time_index,change_description,rho_op_before,rho_op_after,delta_Ig_op_bits,log2_C_before,log2_C_after,log2_A_tilde_before,log2_A_tilde_after
+20,Boundary degree introduction with coupling spillover,0.226700,0.176000,0.365209,8.618000,9.405535,6.476856,6.899182
+45,Constraint and boundary commitment shift in governance and compliance,0.200195,0.060779,1.719776,9.933535,9.998179,7.613015,5.957884
+70,Joint intervention on option count and mobilisation quality,0.159282,0.267153,-0.746081,10.526179,10.133142,7.875834,8.228877

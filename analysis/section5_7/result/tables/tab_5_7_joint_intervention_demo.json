@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "C": 4096.0,
+    "A": 512.0,
+    "f_A": 0.35
+  },
+  "intervention_factors": {
+    "alpha": 0.62,
+    "beta": 1.4,
+    "gamma": 1.25
+  },
+  "scenarios": {
+    "baseline": {
+      "C": 4096.0,
+      "A": 512.0,
+      "f_A": 0.35,
+      "rho_op": 0.04375,
+      "I_g_op_bits": 4.514573172829758
+    },
+    "choice_only": {
+      "C": 2539.52,
+      "A": 512.0,
+      "f_A": 0.35,
+      "rho_op": 0.07056451612903225,
+      "I_g_op_bits": 3.8249132934419077
+    },
+    "success_only": {
+      "C": 4096.0,
+      "A": 716.8,
+      "f_A": 0.35,
+      "rho_op": 0.06124999999999999,
+      "I_g_op_bits": 4.029146345659516
+    },
+    "mobilisation_only": {
+      "C": 4096.0,
+      "A": 512.0,
+      "f_A": 0.4375,
+      "rho_op": 0.0546875,
+      "I_g_op_bits": 4.192645077942396
+    },
+    "joint": {
+      "C": 2539.52,
+      "A": 716.8,
+      "f_A": 0.4375,
+      "rho_op": 0.12348790322580644,
+      "I_g_op_bits": 3.0175583713843035
+    }
+  },
+  "reductions_bits": {
+    "delta_choice_bits": 0.6896598793878503,
+    "delta_success_bits": 0.485426827170242,
+    "delta_mobilisation_bits": 0.32192809488736174,
+    "delta_joint_bits": 1.4970148014454545,
+    "additivity_residual_bits": 4.440892098500626e-16
+  }
+}

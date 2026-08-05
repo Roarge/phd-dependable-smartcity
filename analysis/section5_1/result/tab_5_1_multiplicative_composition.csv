@@ -1,0 +1,4 @@
+n,m,C,log2_C,C_exceeds_m_plus_n
+3,4,64,6.0000,True
+5,3,243,7.9248,True
+7,2,128,7.0000,True

@@ -1,0 +1,115 @@
+{
+  "section": "5.7",
+  "theorem_status": [
+    {
+      "name": "T5.7-1",
+      "status": "proved",
+      "file": "analysis/section5_7/setup/proofs/Section5_7.lean",
+      "line_range": "99-115"
+    },
+    {
+      "name": "T5.7-2",
+      "status": "proved",
+      "file": "analysis/section5_7/setup/proofs/Section5_7.lean",
+      "line_range": "116-175"
+    },
+    {
+      "name": "T5.7-3",
+      "status": "proved",
+      "file": "analysis/section5_7/setup/proofs/Section5_7.lean",
+      "line_range": "176-253"
+    },
+    {
+      "name": "T5.7-4",
+      "status": "proved",
+      "file": "analysis/section5_7/setup/proofs/Section5_7.lean",
+      "line_range": "254-324"
+    }
+  ],
+  "assumptions": [
+    "Finite option-set representations are used for operator cardinality proofs.",
+    "Constraint operator is modelled as pruning by additional feasibility predicates.",
+    "Distinctness coarsening is modelled by composition phi' = h o phi.",
+    "Count variables satisfy positivity where logarithms are used.",
+    "Joint intervention factors satisfy alpha in (0,1), beta >= 1, gamma >= 1.",
+    "Gaussian likelihood accuracy proxy uses sigma^2 > 0."
+  ],
+  "bridging_assumptions": [
+    "Improved inference map g(.) and reduced channel noise omega are represented by lower effective inference variance.",
+    "Inference improvements can reduce tau_detect^0 or CP_info in the response-time model.",
+    "With monotone mobilisation fractions in r = tau_d/tau_eff, reduced tau_eff implies increased mobilisation."
+  ],
+  "numeric_demo": {
+    "baseline": {
+      "C": 4096.0,
+      "A": 512.0,
+      "f_A": 0.35
+    },
+    "intervention_factors": {
+      "alpha": 0.62,
+      "beta": 1.4,
+      "gamma": 1.25
+    },
+    "scenarios": {
+      "baseline": {
+        "C": 4096.0,
+        "A": 512.0,
+        "f_A": 0.35,
+        "rho_op": 0.04375,
+        "I_g_op_bits": 4.514573172829758
+      },
+      "choice_only": {
+        "C": 2539.52,
+        "A": 512.0,
+        "f_A": 0.35,
+        "rho_op": 0.07056451612903225,
+        "I_g_op_bits": 3.8249132934419077
+      },
+      "success_only": {
+        "C": 4096.0,
+        "A": 716.8,
+        "f_A": 0.35,
+        "rho_op": 0.06124999999999999,
+        "I_g_op_bits": 4.029146345659516
+      },
+      "mobilisation_only": {
+        "C": 4096.0,
+        "A": 512.0,
+        "f_A": 0.4375,
+        "rho_op": 0.0546875,
+        "I_g_op_bits": 4.192645077942396
+      },
+      "joint": {
+        "C": 2539.52,
+        "A": 716.8,
+        "f_A": 0.4375,
+        "rho_op": 0.12348790322580644,
+        "I_g_op_bits": 3.0175583713843035
+      }
+    },
+    "reductions_bits": {
+      "delta_choice_bits": 0.6896598793878503,
+      "delta_success_bits": 0.485426827170242,
+      "delta_mobilisation_bits": 0.32192809488736174,
+      "delta_joint_bits": 1.4970148014454545,
+      "additivity_residual_bits": 4.440892098500626e-16
+    }
+  },
+  "file_paths": {
+    "proof_file": "analysis/section5_7/setup/proofs/Section5_7.lean",
+    "figure_pdf": "analysis/section5_7/result/figures/fig_5_8_patterns_as_operators.pdf",
+    "figure_png": "analysis/section5_7/result/figures/fig_5_8_patterns_as_operators.png",
+    "demo_json": "analysis/section5_7/result/tables/tab_5_7_joint_intervention_demo.json",
+    "compat_proof_file": "proofs/section5_7/Section5_7.lean",
+    "compat_figure_pdf": "figures/fig_5_8_patterns_as_operators.pdf",
+    "compat_figure_png": "figures/fig_5_8_patterns_as_operators.png",
+    "compat_demo_json": "tables/tab_5_7_joint_intervention_demo.json",
+    "compat_manifest": "results/section5_7/manifest.json"
+  },
+  "caption_draft": "Figure 5-8 maps modelling patterns and digital engineering interventions to shared operators on option-space structure, mobilisation dynamics, and inference dynamics.",
+  "determinism": {
+    "seed": 20260208,
+    "backend": "Agg",
+    "pythonhashseed": "0"
+  }
+}

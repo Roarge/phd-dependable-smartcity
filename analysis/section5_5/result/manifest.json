@@ -1,0 +1,85 @@
+{
+  "section": "5.5",
+  "theorem_status": [
+    {
+      "name": "T5.5-1",
+      "status": "proved",
+      "file": "analysis/section5_5/setup/proofs/Section5_5.lean",
+      "line_range": "75-89"
+    },
+    {
+      "name": "T5.5-2",
+      "status": "proved",
+      "file": "analysis/section5_5/setup/proofs/Section5_5.lean",
+      "line_range": "90-132"
+    },
+    {
+      "name": "T5.5-3",
+      "status": "proved",
+      "file": "analysis/section5_5/setup/proofs/Section5_5.lean",
+      "line_range": "133-140"
+    },
+    {
+      "name": "T5.5-4",
+      "status": "proved",
+      "file": "analysis/section5_5/setup/proofs/Section5_5.lean",
+      "line_range": "141-167"
+    },
+    {
+      "name": "T5.5-5",
+      "status": "proved",
+      "file": "analysis/section5_5/setup/proofs/Section5_5.lean",
+      "line_range": "168-203"
+    }
+  ],
+  "assumptions": [
+    "Gaussian channel noise is additive with variance sigma^2 > 0.",
+    "Posterior-variance claim uses scalar conjugate Gaussian form and non-degenerate prior variance.",
+    "Shared expectations use gamma in [0,1] for convex-mixture interpretation.",
+    "Affordance term uses positive action prior p(a) in free energy F = Divergence - ln p(a).",
+    "Coordination friction uses absolute-norm proxy |Phi_A - Phi_B| in the two-agent construction."
+  ],
+  "distribution_assumptions": {
+    "noise_model": "omega ~ Normal(0, sigma^2)",
+    "likelihood": "s|eta ~ Normal(g(eta), sigma^2)",
+    "expected_accuracy_proxy": "E[ln p(s|eta)] = -0.5*(ln(2*pi*sigma^2)+1)"
+  },
+  "norm_assumptions": {
+    "coordination_friction_norm": "absolute value on scalar expectation gap",
+    "friction_proxy": "||Phi_A - Phi_B|| = |Phi_A - Phi_B|"
+  },
+  "numeric_demo": {
+    "mu": 0.5,
+    "peer_1": 0.22,
+    "peer_2": 0.64,
+    "peer_3": 0.9,
+    "gamma_fixed_1": 0.25,
+    "gamma_fixed_2": 0.55,
+    "gamma_fixed_3": 0.8,
+    "accuracy_at_sigma2_0_1": -0.2676459867076499,
+    "accuracy_at_sigma2_1_0": -1.4189385332046727,
+    "accuracy_gain_low_noise": 1.1512925464970227,
+    "phi_range_min": 0.539,
+    "phi_range_max": 0.6323333333333333,
+    "max_friction": 0.06999999999999995
+  },
+  "file_paths": {
+    "proof_file": "analysis/section5_5/setup/proofs/Section5_5.lean",
+    "loop_figure_pdf": "analysis/section5_5/result/figures/fig_5_5_phas_eai_assurance_loop.pdf",
+    "loop_figure_png": "analysis/section5_5/result/figures/fig_5_5_phas_eai_assurance_loop.png",
+    "precision_demo_pdf": "analysis/section5_5/result/figures/fig_5_5_precision_accuracy_demo.pdf",
+    "precision_demo_png": "analysis/section5_5/result/figures/fig_5_5_precision_accuracy_demo.png",
+    "compat_proof_file": "proofs/section5_5/Section5_5.lean",
+    "compat_loop_pdf": "figures/fig_5_5_phas_eai_assurance_loop.pdf",
+    "compat_loop_png": "figures/fig_5_5_phas_eai_assurance_loop.png",
+    "compat_demo_pdf": "figures/fig_5_5_precision_accuracy_demo.pdf",
+    "compat_demo_png": "figures/fig_5_5_precision_accuracy_demo.png",
+    "compat_manifest": "results/section5_5/manifest.json"
+  },
+  "caption_draft": "Figure 5-5 shows the PHAS-EAI assurance loop where noisy signs and communication update beliefs, authority weights shape shared expectations, and affordance shifts free-energy-ranked actions.",
+  "determinism": {
+    "seed": 20260208,
+    "backend": "Agg",
+    "pythonhashseed": "0"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "model_version": "Analytical-Models-4.2",
+  "theorems": [
+    {
+      "name": "A1",
+      "statement": "If a factor expands with fixed K, complexity C is non-decreasing",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "11-24"
+    },
+    {
+      "name": "A2",
+      "statement": "If constraints tighten, complexity cannot increase",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "47-61"
+    },
+    {
+      "name": "A3",
+      "statement": "Under factorised constraints and binning, total complexity is multiplicative",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "62-86"
+    },
+    {
+      "name": "A4",
+      "statement": "Discrete factor introductions produce jumps with Delta log2 C = log2(k)",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "87-114"
+    },
+    {
+      "name": "B1",
+      "statement": "Selection pressure that reduces rho^op makes I_g^op non-decreasing",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "115-136"
+    },
+    {
+      "name": "B2",
+      "statement": "Discrete change gives Delta I_g^op = log2(rho_minus / rho_plus)",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "137-152"
+    },
+    {
+      "name": "B3",
+      "statement": "Discrete pressure events produce jump discontinuities in I_g^op",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "153-176"
+    },
+    {
+      "name": "C1",
+      "statement": "Change in I_g^op decomposes into log2(C ratio) minus log2(A ratio)",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "177-193"
+    },
+    {
+      "name": "C2",
+      "statement": "Joint intervention reduction equals sum of single-term reductions",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "194-240"
+    }
+  ],
+  "assumptions": [
+    "Finite decision resolution induces finite configuration spaces",
+    "Distinct options are equivalence classes induced by the binning map b",
+    "Constraint tightening means K2 implies K1 at configuration level",
+    "A3 exactness assumes factorised constraints and factorised binning across subsystems",
+    "All log arguments are strictly positive",
+    "Selection pressure is modelled by antitone rho^op",
+    "Event times are discrete and updates occur at event indices",
+    "Joint intervention uses alpha in (0,1) and beta greater than 1"
+  ],
+  "derived_jump_formulae": [
+    "Delta log2 C = log(k)/log(2)",
+    "Delta I_g^op = log(rho_minus/rho_plus)/log(2)",
+    "Joint reduction in I_g^op = -log(alpha)/log(2) + log(beta)/log(2)"
+  ]
+}

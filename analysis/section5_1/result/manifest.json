@@ -1,0 +1,83 @@
+{
+  "section": "5.1",
+  "theorem_status": [
+    {
+      "name": "A1",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "11-24"
+    },
+    {
+      "name": "A2",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "47-61"
+    },
+    {
+      "name": "A3",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "62-86"
+    },
+    {
+      "name": "A4",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "87-114"
+    },
+    {
+      "name": "B1",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "115-136"
+    },
+    {
+      "name": "B2",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "137-152"
+    },
+    {
+      "name": "B3",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "153-176"
+    },
+    {
+      "name": "C1",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "177-193"
+    },
+    {
+      "name": "C2",
+      "status": "proved",
+      "file": "analysis/section5_1/setup/lean/ComplexityBursts.lean",
+      "line_range": "194-240"
+    }
+  ],
+  "assumptions": [
+    "Finite decision resolution induces finite configuration spaces",
+    "Distinct options are equivalence classes induced by the binning map b",
+    "Constraint tightening means K2 implies K1 at configuration level",
+    "A3 exactness assumes factorised constraints and factorised binning across subsystems",
+    "All log arguments are strictly positive",
+    "Selection pressure is modelled by antitone rho^op",
+    "Event times are discrete and updates occur at event indices",
+    "Joint intervention uses alpha in (0,1) and beta greater than 1"
+  ],
+  "file_paths": {
+    "figure_bursts_pdf": "analysis/section5_1/result/fig_5_1_complexity_bursts.pdf",
+    "figure_bursts_png": "analysis/section5_1/result/fig_5_1_complexity_bursts.png",
+    "figure_growth_pdf": "analysis/section5_1/result/fig_multiplicative_option_growth.pdf",
+    "figure_joint_pdf": "analysis/section5_1/result/fig_joint_intervention_effect.pdf",
+    "table_metrics_csv": "analysis/section5_1/result/burst_metrics.csv",
+    "table_composition_csv": "analysis/section5_1/result/tab_5_1_multiplicative_composition.csv",
+    "proof_file": "analysis/section5_1/setup/lean/ComplexityBursts.lean"
+  },
+  "determinism": {
+    "seed": 20260208,
+    "backend": "Agg",
+    "pythonhashseed": "0"
+  }
+}

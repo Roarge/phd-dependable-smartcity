@@ -1,0 +1,73 @@
+{
+  "section": "5.4",
+  "theorem_status": [
+    {
+      "name": "T5.4-1",
+      "status": "proved",
+      "file": "analysis/section5_4/setup/proofs/Section5_4.lean",
+      "line_range": "159-184"
+    },
+    {
+      "name": "T5.4-2",
+      "status": "proved",
+      "file": "analysis/section5_4/setup/proofs/Section5_4.lean",
+      "line_range": "185-218"
+    },
+    {
+      "name": "T5.4-3",
+      "status": "proved",
+      "file": "analysis/section5_4/setup/proofs/Section5_4.lean",
+      "line_range": "219-234"
+    },
+    {
+      "name": "T5.4-4",
+      "status": "proved",
+      "file": "analysis/section5_4/setup/proofs/Section5_4.lean",
+      "line_range": "235-263"
+    }
+  ],
+  "assumptions": [
+    "Option space O^Delta is finite and Perf_g has finite image.",
+    "Threshold success set uses A_{g,rho} = {x | rho <= Perf_g(x)}.",
+    "I_g^* uses positive-count domain when strict monotonic log claims are invoked.",
+    "Mobilisation fraction f_A is monotone in r and strictly positive for log term.",
+    "Time pressure mapping is represented through reduced r = tau_d/tau_eff."
+  ],
+  "parameter_values": {
+    "synthetic_perf_levels": [
+      0.18,
+      0.31,
+      0.46,
+      0.62,
+      0.77,
+      0.91
+    ],
+    "synthetic_count": 1024,
+    "rho_grid_points": 700,
+    "optional_iop_reference": {
+      "epsilon": 1.15,
+      "C_ref": 1024.0,
+      "A_ref": 200.0,
+      "I_star_ref": 2.3561438102252756
+    }
+  },
+  "file_paths": {
+    "proof_file": "analysis/section5_4/setup/proofs/Section5_4.lean",
+    "figure_pdf": "analysis/section5_4/result/figures/fig_5_4_threshold_shrinkage.pdf",
+    "figure_png": "analysis/section5_4/result/figures/fig_5_4_threshold_shrinkage.png",
+    "table_csv": "analysis/section5_4/result/tables/tab_5_4_synthetic_perf.csv",
+    "optional_iop_pdf": "analysis/section5_4/result/figures/fig_5_4_iop_time_pressure.pdf",
+    "optional_iop_png": "analysis/section5_4/result/figures/fig_5_4_iop_time_pressure.png",
+    "compat_proof_file": "proofs/section5_4/Section5_4.lean",
+    "compat_figure_pdf": "figures/fig_5_4_threshold_shrinkage.pdf",
+    "compat_figure_png": "figures/fig_5_4_threshold_shrinkage.png",
+    "compat_table_csv": "tables/tab_5_4_synthetic_perf.csv",
+    "compat_manifest": "results/section5_4/manifest.json"
+  },
+  "caption_draft": "Figure 5-4 shows threshold-driven shrinkage of A_{g,rho} and matching step increases in I_g^*. Each jump aligns with a realised finite performance level.",
+  "determinism": {
+    "seed": 20260208,
+    "backend": "Agg",
+    "pythonhashseed": "0"
+  }
+}
