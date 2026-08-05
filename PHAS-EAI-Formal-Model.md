@@ -1,8 +1,3 @@
----
-title: "The PHAS-EAI Formal Model"
-subtitle: "A Complete Reference"
----
-
 # The PHAS-EAI Formal Model
 
 This document presents the complete formal model for Purposeful Human Activity Systems with Extended Active Inference (PHAS-EAI). The model provides a unified analytical framework that connects four components:
