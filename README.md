@@ -91,7 +91,7 @@ python -m phas_eai.experiments.run_extension1 --quick  # single extension
 
 The thesis is article-based. Papers I through V are included as appendices
 in the submitted thesis. Four industrial case studies were conducted with a
-Norwegian VSE (Aiwell AS):
+Norwegian VSE:
 
 - **Case A**: SysML-based reliability and security validation
 - **Case B**: Gamified threat modelling
@@ -104,9 +104,6 @@ Norwegian VSE (Aiwell AS):
 - **Python 3.12** for analysis scripts and agent-based simulation
 - Deterministic execution: fixed random seeds, `PYTHONHASHSEED=0`
 
-## Case Company
-
-[Aiwell AS](https://aiwell.no) — Norwegian VSE operating smart building infrastructure.
 
 ## Licence
 
