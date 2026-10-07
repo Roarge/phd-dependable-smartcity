@@ -21,7 +21,7 @@ Four industrial case studies conducted over six years with a Norwegian VSE evalu
 ## Repository Contents
 
 The full dissertation is available as
-[Georgsen thesis 13092026.pdf](https://github.com/Roarge/phd-dependable-smartcity/blob/68c1963db36c5d18c5da9f9de199054aba91442e/Georgsen_thesis_130926.pdf).
+[2026_304_Georgsen phd.pdf](https://github.com/Roarge/phd-dependable-smartcity/blob/df793a38c02056f97789381bd915936d6121f373/2026_304_Georgsen_phd.pdf).
 This repository also contains the reproducible analysis and simulation
 artefacts.
 
